@@ -1,3 +1,11 @@
+### Preparation
+
+pip install pipenv
+pipenv install
+
+python -m unittest discover test
+
+
 ### Rules
 1. Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
 2. Any live cell with more than three live neighbours dies, as if by overcrowding.
